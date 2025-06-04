@@ -1,5 +1,5 @@
 # FreezeGuardToken
-![Project Logo](image.jpg)
+<img src="image.jpg" alt="Logo" width="300"/>
 
 ## Overview  
 **FreezeGuardToken** is a smart contract built on the **Scroll Blockchain**, enhancing standard token behavior with advanced account freezing features. It enables administrators to freeze accounts temporarily or permanently, assign reasons, and tag them with compliance statuses like `KycPending`, `AmlFlagged`, or `Sanctioned`. Frozen accounts are unable to transfer, burn, or spend tokens.  
