@@ -33,13 +33,6 @@ FreezeGuardToken aims to create a secure, compliant token standard that fits sea
 ### 4. Logic Integration  
 - Modify `approve`, `transfer`, `transfer_from`, `burn`, and `burn_from` to block frozen accounts
 
-### 5. (Optional) Frontend Interface  
-- Simple dashboard (React/Vite or SvelteKit) for:  
-  - Displaying balances  
-  - Freezing/unfreezing accounts  
-  - Viewing freeze and compliance status  
-- Integration with Scroll-compatible wallets
-
 ### 6. Testing & Deployment  
 - Write unit tests for all core features  
 - Deploy smart contract on Scroll testnet/mainnet  
