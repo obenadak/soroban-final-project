@@ -33,10 +33,12 @@ FreezeGuardToken aims to create a secure, compliant token standard that fits sea
 ### 4. Logic Integration  
 - Modify `approve`, `transfer`, `transfer_from`, `burn`, and `burn_from` to block frozen accounts
 
-### 6. Testing & Deployment  
-- Write unit tests for all core features  
-- Deploy smart contract on Scroll testnet/mainnet  
-- (Optional) Deploy frontend via GitHub Pages / Netlify
+### 5. Testing & Deployment  
+- All core functionalities of the FreezeGuardToken contract are thoroughly tested to ensure security and reliability. The test suite includes:
+- Token operations (mint, transfer, burn, approve)
+- Account freezing and unfreezing (with duration, reason, and compliance tag)
+- Compliance checks and freeze status queries
+- Timed automatic unfreeze logic
 
 ---
 
