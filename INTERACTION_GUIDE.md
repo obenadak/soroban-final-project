@@ -309,13 +309,13 @@ The contract admin can freeze accounts, restricting certain operations.
   ```
   - Result: **SUCCESSFUL**. Transaction: [https://stellar.expert/explorer/testnet/tx/c7dea5781f6068cafaef2f4aa5600c921305ce4eeef4037eb229254d120be954](https://stellar.expert/explorer/testnet/tx/c7dea5781f6068cafaef2f4aa5600c921305ce4eeef4037eb229254d120be954)
   - `alice`'s new balance will be 16 MFT.
-    ```bash
-    stellar contract invoke \
-  --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P \
-  --source alice \
-  --network testnet \
-  -- \
-  balance \
-  --id GCCE3U7AYGHR33DGHKZ6KCCUCAUOYVOPTHPLN7UI2U2FNM53H6ZC2YIB
-    ```
-    - Expected output: `"160000000"`
+```bash
+stellar contract invoke \
+    --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P \
+    --source alice \
+    --network testnet \
+    -- \
+    balance \
+    --id GCCE3U7AYGHR33DGHKZ6KCCUCAUOYVOPTHPLN7UI2U2FNM53H6ZC2YIB
+```
+- Expected output: `"160000000"`
