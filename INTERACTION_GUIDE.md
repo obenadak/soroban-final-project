@@ -44,15 +44,30 @@ stellar contract invoke \
 These are read-only operations.
 - **Get Decimals (`decimals`):** Expected output: `7`
   ```bash
-  stellar contract invoke --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P --network testnet -- decimals
+   stellar contract invoke \
+    --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P \
+    --source alice \
+    --network testnet \
+    -- \
+    decimals
   ```
 - **Get Token Name (`name`):** Expected output: `"MyFinalToken"`
   ```bash
-  stellar contract invoke --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P --network testnet -- name
+  stellar contract invoke \
+  --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P \
+  --source alice \
+  --network testnet \
+  -- \
+  name
   ```
 - **Get Token Symbol (`symbol`):** Expected output: `"MFT"`
   ```bash
-  stellar contract invoke --id CAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P --network testnet -- symbol
+  stellar contract invoke \
+  --id CCAO7HFVLQ3KWIO5XW6MWRU3LJRDBPEEHYAPTIXSUC6XF67GPBMD2WI7P \
+  --source alice \
+  --network testnet \
+  -- \
+  symbol
   ```
 
 ### 5. Token Management Operations
